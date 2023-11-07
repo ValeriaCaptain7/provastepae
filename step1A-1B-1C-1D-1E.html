@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+console.log("------Driving------");
+let driving = [{	"idDE": 1,
+				   "date": "12/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 35},
+				   {"idDE": 2,
+				   "date": "13/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 25},
+				   {"idDE": 3,
+				   "date": "14/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 40},
+				   {"idDE": 4,
+				   "date": "15/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 30},
+				   {"idDE": 5,
+				   "date": "16/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 35}];
+console.log(driving);
+
+//--------JSON 3 -----------//
+console.log("--------weather---------");
+let meteo = [{"idmeteo" : 1, "meteo" : "Sunny" ,"humidity": 0, "temp " : 25},
+			 {"idmeteo": 2, "meteo" :" Foggy" ,"humidity": 65, "temp": 5},
+			 {"idmeteo" : 3, "meteo" : "Cloudy", "humidity": 70, "temp": 7},
+			 {"idmeteo" : 4, "meteo" : "Rainy", "humidity": 70, "temp": 6},
+			 {"idmeteo" : 5, "meteo" : "Windy", "humidity": 5, "temp" : 10}];
+console.log(meteo);
+
+//---------JSON 3------------//
+console.log("-------Trrafic-------");
+let traffic = [{"idTraffic": 1, "traffic": "AVG"},
+				{"idTraffic" : 2, "traffic": "Low"},
+				{"idTraffic" : 3, "traffic": "No"},
+				{"idTraffic" : 4, "traffic": "Lot"},];
+console.log(traffic);
+
+//----------JSON 3----------//
+console.log("--------Car type--------");
+let carType = [{"idCartype" : 1, "cartype" : "auto"},
+				{"idCartype": 2 , "cartype" : "manuel"}];
+console.log(carType);
+//----------JSON 3 ------------//
+console.log("-------Fuel Type--------");
+let fuel = [{"idfuel " : 1, "fueltype" : "electric"},
+			{"idfuel " : 2, "fueltype" : "essence"},
+			{"idfuel " : 3, "fueltype" : "diesel"},
+			{"idfuel " : 4, "fueltype" : "Hybrid"}];
+console.log(fuel);
+//------------ DE------------//
+console.log("----Driving EXP--------");
+let drivingexp = [{"idDE": 1,
+				   "date": "12/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 35,
+				   "idmeteo" : 3, "meteo" : "Cloudy", "humidity": 70, "temp": 7,
+				   "idTraffic" : 2, "traffic": "Low",
+				   "idCartype" : 1, "cartype" : "auto",
+				   "idfuel " : 4, "fueltype" : "Hybrid"},
+				   {"idDE": 2,
+				   "date": "13/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 25,
+				   "idmeteo": 2, "meteo" :" Foggy" ,"humidity": 65, "temp": 5,
+				   "idTraffic" : 4, "traffic": "Lot",
+				   "idCartype": 2 , "cartype" : "manuel",
+				   "idfuel " : 1, "fueltype" : "electric"},
+				   {"idDE": 3,
+				   "date": "14/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 40,
+				   "idmeteo" : 1, "meteo" : "Sunny" ,"humidity": 0, "temp " : 25,
+				   "idTraffic" : 3, "traffic": "No",
+				   "idCartype" : 1, "cartype" : "auto",
+				   "idfuel " : 2, "fueltype" : "essence"},
+				   {"idDE": 4,
+				   "date": "15/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 30,
+				   "idmeteo" : 4, "meteo" : "Rainy", "humidity": 70, "temp": 6,
+				   "idTraffic": 1, "traffic": "AVG",
+				   "idCartype": 2 , "cartype" : "manuel",
+				   "idfuel " : 3, "fueltype" : "diesel"},
+				   {"idDE": 5,
+				   "date": "16/10/2023",
+				   "start" :" 10:00", 
+				   "endtime" :" 11:00", 
+				   "km" : 35,
+				   "idmeteo" : 5, "meteo" : "Windy", "humidity": 5, "temp" : 10,
+				   "idTraffic": 1, "traffic": "AVG",
+				   "idCartype": 2 , "cartype" : "manuel",
+				   "idfuel " : 1, "fueltype" : "electric"}];
+console.log(drivingexp);
+
+</script>
+</body>
+</html>
